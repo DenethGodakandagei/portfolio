@@ -12,19 +12,19 @@ export default class Header extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluit fixed-top fullnavbar d-flex justify-content-between">
+        <div className="container  fullnavbar d-flex justify-content-between">
           <a className="navbar-brand" href="#">
-            <span className="navbar_name " style={{paddingLeft : '20px'}}>
-              <span className="navbar_name_">M</span>okoto.
+            <span className="navbar_name container" style={{paddingLeft : '20px'}}>
+              <span className="navbar_name_i">M</span>okoto.
             </span>
           </a>
           <button
-            className="navbar-toggler   text-info "
+            className="navbar-toggler  text-info custom-toggler"
             onClick={() => {
               this.setState({ show: !this.state.show });
             }}
           >
-            {this.state.show ? <MenuIcon color="action" /> : <CloseIcon color="action"  />}
+            {this.state.show ? <MenuIcon style={{color:'#6703e0'}} /> : <CloseIcon style={{color:'#6703e0'}} />}
           </button>
           <div
             className={
