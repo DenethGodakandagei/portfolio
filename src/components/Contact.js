@@ -103,7 +103,7 @@ const Contact = () => {
                   <li className="list-item d-flex">
                     <i className="bi bi-envelope-at">
                       <span className="contact-text gmail ">
-                        contact.mokoto@gmail.com
+                        contact. mokoto@gmail.com
                       </span>
                     </i>
                   </li>
