@@ -23,8 +23,8 @@ const about = () => {
               </h1>
 
               <div
-                className="hero_decription text-center container-md text-justify"
-                style={{ fontSize: "20px" }}
+                className=" text-center hero_decription container-md text-justify d-none d-sm-block .d-md-none .d-lg-block"
+                style={{ fontSize: "27px" }}
               >
                 I am a software engineer with a passion for problem-solving and
                 creating innovative solutions. With a strong technical
@@ -32,6 +32,16 @@ const about = () => {
                 frameworks, and technologies. I am a collaborative team player
                 and dedicated to continuous learning and personal development.
               </div>
+              <p
+                className="text-center text-break container-md hero_decription  .d-none d-sm-none"
+                style={{ fontSize: "16px" }}
+              >
+                I am a software engineer with a passion for problem-solving and
+                creating innovative solutions. With a strong technical
+                background, I have experience in various programming languages,
+                frameworks, and technologies. I am a collaborative team player
+                and dedicated to continuous learning and personal development.
+              </p>
             </div>
           </div>
         </div>
