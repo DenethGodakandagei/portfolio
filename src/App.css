@@ -137,7 +137,7 @@ nav .navbar-collapse{
 }
 .white__gradient {
   position: absolute;
-  width: 100%;
+  width: 40%;
   height: 50%;
   background: rgba(80, 7, 144, 0.6);
   filter: blur(650px);
