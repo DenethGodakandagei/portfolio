@@ -23,9 +23,10 @@ const CountEdu = () => {
           style={{ height: "60px" }}
         ></div>
 
-        <div className="row justify-content-center text-center count">
+        <div className=" d-none d-sm-block .d-md-none .d-lg-block">
+          <div className="row justify-content-center text-center count  ">
           <div className="col-md-4">
-            <h2 className="font-weight-bold">Yers experience</h2>
+            <h2 className="font-weight-bold">Yers experiencer</h2>
             <span id="count1" className="display-6" style={{ fontWeight: 400 }}>
               {countUp && <CountUp start={0} end={8} duration={2} delay={0} />}
             </span>
@@ -48,6 +49,34 @@ const CountEdu = () => {
               )}
             </span>
             <span className="plus_mark">+</span>
+          </div>
+          </div>
+        </div>
+        <div className="row justify-content-center  count  .d-none d-sm-none">
+          <div className="col-md-4 d-flex pb-3">
+            <h5 className="font-weight-bold px-3">Yers experience</h5>
+            <span id="count1" className="display-6" style={{ fontWeight: 400,fontSize:'20px' }}>
+              {countUp && <CountUp start={0} end={8} duration={2} delay={0} />}+
+            </span>
+            
+          </div>
+          <div className="col-md-4 d-flex pb-3">
+            <h5 className="font-weight-bold  px-3">Happy Customers</h5>
+            <span id="count2" className="display-6" style={{ fontWeight: 400 ,fontSize:'20px'}}>
+              {countUp && (
+                <CountUp start={0} end={120} duration={2} delay={0} />
+              )}+
+            </span>
+            
+          </div>
+          <div className="col-md-4 d-flex pb-3">
+            <h5 className="font-weight-bold px-3">completed Projects</h5>
+            <h5 id="count3" className="display-6" style={{ fontWeight: 400 ,fontSize:'20px'}}>
+              {countUp && (
+                <CountUp start={0} end={130} duration={2} delay={0} />
+              )}+
+            </h5>
+            
           </div>
         </div>
         <section className="text-light py-5 min-vh-80">
