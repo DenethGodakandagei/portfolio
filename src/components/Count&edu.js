@@ -89,13 +89,13 @@ const CountEdu = () => {
                     <div className="card-text card-body">
                       <ul>
                         <li>Works at 99x</li>
-                        <li>Senior Software Engineer at 99X - 2021</li>
+                        <li>Senior Software Engineer at unknown - 2021</li>
                         <li>
-                          Senior Software Engineer at Cloud Solutions
+                          Senior Software Engineer at unknown Solutions
                           International - 2017
                         </li>
                         <li>
-                          Senior Software Engineer at OpenArc Systems
+                          Senior Software Engineer at unknown Systems
                           Management(Pvt)Ltd -2012
                         </li>
                         <li>freelancer on upwork & fiverr</li>
@@ -117,13 +117,13 @@ const CountEdu = () => {
                   <div className="card-text card-body">
                     <ul>
                       <li style={{ marginBottom: "20px" }}>
-                        studied at University of Colombo School of Computing
+                        studied at University of unknown School of Computing
                       </li>
                       <li style={{ marginBottom: "20px" }}>
-                        Goes to UCSC(University of Colombo School of Computing)
+                        Goes to UCSC(University of unknown School of Computing)
                       </li>
                       <li style={{ marginBottom: "20px" }}>
-                        Goes to OpenArc School of Bussness & Technology
+                        Goes to unknown School of   Technology
                       </li>
                     </ul>
                     <div className="card_images">
