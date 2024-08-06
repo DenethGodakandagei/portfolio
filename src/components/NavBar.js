@@ -15,7 +15,7 @@ export default class Header extends Component {
         <div className="container  fullnavbar d-flex justify-content-between">
           <a className="navbar-brand" href="#">
             <span className="navbar_name container" style={{paddingLeft : '20px'}}>
-              <span className="navbar_name_i">M</span>okoto.
+              <span className="navbar_name_i">M</span>okato.
             </span>
           </a>
           <button
