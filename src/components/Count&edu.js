@@ -101,10 +101,7 @@ const CountEdu = () => {
                         <li>freelancer on upwork & fiverr</li>
                       </ul>
                       <div className="card_images">
-                        <img src={ninex} />
-                        <img src={cloud} />
-                        <img src={openarc} />
-                        <img src={upwork} />
+                        
                       </div>
                     </div>
                   </div>
@@ -127,8 +124,7 @@ const CountEdu = () => {
                       </li>
                     </ul>
                     <div className="card_images">
-                      <img src={campus} />
-                      <img src={openarc} />
+                      
                     </div>
                   </div>
                 </div>
