@@ -389,3 +389,13 @@ footer p {
   right: 30px;
 }
 
+.darktheme{
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  background-color: #37119e;
+  display: inline-block;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
